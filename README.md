@@ -191,7 +191,7 @@ recycle-sorter-yolo/
 
 A hosted version of the app is available here:
 
-[Add your deployed URL here]
+[https://appapppy-fizakawds68gotgxkfjjnj.streamlit.app/]
 
 ---
 
@@ -200,7 +200,7 @@ A hosted version of the app is available here:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/MatthewDmasa/recycle-sorter-yolo
 cd recycle-sorter-yolo
 ```
 
