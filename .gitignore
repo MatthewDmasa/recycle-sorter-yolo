@@ -1,0 +1,95 @@
+# =========================
+# IDE / editor
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Dataset folders
+# =========================
+WaRP/Warp-C/
+WaRP/Warp-D/
+WaRP/Warp-S/
+WaRP/assets/
+
+# =========================
+# Processed data
+# =========================
+data/raw/**
+data/interim/**
+data/processed/**
+
+# Keep processed dataset config / structure if needed
+!data/processed/
+!data/processed/warp_recycle/
+!data/processed/warp_recycle/recycle.yaml
+
+# =========================
+# Model weights
+# =========================
+models/**/*.pt
+models/**/*.onnx
+models/**/*.engine
+models/**/*.torchscript
+
+# Keep final deployment model
+!models/
+!models/trained/
+!models/trained/best.pt
+
+# =========================
+# YOLO / training outputs
+# =========================
+runs/
+outputs/
+predictions/
+
+# =========================
+# Streamlit secrets
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Assets
+# =========================
+# Keep demo assets in repo
+!assets/
+!assets/demo_videos/
+!assets/demo_videos/tester_vid.mp4
+!assets/demo_images/
+!assets/screenshots/

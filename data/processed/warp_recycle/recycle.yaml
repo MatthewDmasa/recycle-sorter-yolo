@@ -1,0 +1,6 @@
+path: data/processed/warp_recycle
+train: images/train
+val: images/val
+test: images/test
+nc: 6
+names: [plastic, detergent, can, cardboard, glass, canister]
